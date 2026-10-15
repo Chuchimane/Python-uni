@@ -1,0 +1,10 @@
+#Ασκηση 1: Υπολογισμός ΦΠΑ 24% και συνολικής τιμής προϊόντος
+price = int(input("Εισάγετε την τιμη του προϊόντος: "))
+pricefpa = price * 0.24
+total_price = pricefpa + price
+print('---Απόδειξη---')
+print("Καθαρή Αξία:", price)
+print("ΦΠΑ (24%):", pricefpa)
+print("Σύνολο:", total_price)
+print('---------------')
+
